@@ -1,0 +1,329 @@
+\documentclass[10pt]{book}
+\usepackage{times}
+\usepackage{verse}
+\usepackage{graphicx}
+%\usepackage{ogonek}
+\usepackage[utf8]{inputenc}
+\usepackage[british]{babel}
+\usepackage[T1]{fontenc}
+%
+% For 15x23 trade books
+%\usepackage[paperheight=23.495cm,paperwidth=15.5575cm,margin=2.4cm%,heightrounded,showframe
+%           ]{geometry}
+%
+% For 13x20 trade books
+\usepackage[paperheight=20.96cm,paperwidth=13.03cm,
+inner=1.6cm,outer=2.203cm,top=2.2025cm,bottom=2.2025cm%,heightrounded,showframe
+]{geometry}
+\renewcommand\title[1]{\gdef\thetitle{#1}}
+\newcommand\subtitle[1]{\gdef\thesubtitle{#1}}
+
+\title{Preludes and Fugues}
+\subtitle{An anthology}
+\author{Sadie Kaye (ed)}
+\date{April 2026}
+
+\makeatletter
+\catcode`\_=\active
+% \def_{\underline{\ }}
+\def_{\vrule height 0.45pt depth 0pt width 0.45em\relax}
+\makeatother
+\let\+\= 
+\def\extraspace{\nobreak \hskip .15em plus .15em\relax} 
+\def\={\unskip\extraspace--\extraspace}
+\def\mdash{\unskip\extraspace--\extraspace}
+\def\nbsp{~}
+\newcommand{\sh}{$\sharp$}
+\newcommand{\fl}{$\flat$}
+
+\newcommand\prelude{}%\section*{Prelude}}
+\newcommand\fugue{\[***\]\pagebreak[1]}%{\section*{Fugue}}
+\newcommand\introduction{\chapter*{Introduction}\addcontentsline{toc}{chapter}{Introduction}}
+
+%\usepackage{tocloft}
+%\usepackage{titlesec,titletoc}
+%\titleformat{\chapter}[display]
+%            {\normalfont\huge\bfseries}{}{0pt}{\Huge}
+            
+
+\newcommand\preludeandfugue[1]{%
+  \chapter*{#1}
+  %\cftaddtitleline{toc}{chapter}{#1}{}
+  \addtocontents{toc}{\par\vskip 6pt{\it #1}}
+}
+\newcommand\contributor[1]{\addcontentsline{toc}{section}{#1}\hfill{\bf #1}\break\medskip}
+
+\begin{document}
+\raggedright
+\parskip 6pt
+\parindent 0pt
+
+\frontmatter
+\pagestyle{empty}
+
+\vspace*{5cm}
+\begin{center}
+  \Large{\sc \thetitle}\\[3mm]
+  \large{\it \thesubtitle}
+\end{center}
+
+\clearpage
+
+\tableofcontents
+
+\input{introduction}
+
+\mainmatter
+\pagestyle{plain}
+
+\input{unrequitedsamsutton}% prose
+
+\input{linguafranca}% poetry
+
+\input{piperfinchling}% prose
+
+\input{pipe}% poetry
+
+\input{theroom}% prose
+
+%%% WITHDRAWN \input{disassociation}
+
+\input{horizon}% poetry
+
+% \input{asabove}% prose
+
+\input{otherworld}% prose
+
+\input{contemplation}% poetry
+
+\input{bordergap}% prose
+
+\input{despite}% poetry
+
+\input{archeffings}% prose
+
+\input{jennifer}% prose
+
+\clearpage
+
+\chapter*{Contributors}
+
+\section*{Sadie Kaye}
+
+Sadie Kaye, \texttt{sadie314159@gmail.com}
+mirth happiness teasing
+
+\section*{Shadow Liptrot}
+
+Shadow Liptrot (he/him)
+
+laura.l.liptrot@gmail.com
+
+
+\section*{Steven C.~Davis}
+
+Hi Sadie,
+
+Please find attached 'Piper Finchling' for your 'Prelude and Fugue' anthology.
+My words for the mood are exploration, wonder and curiosity.
+
+Steven C. Davis
+
+Bio-
+
+"Steven C. Davis describes themselves as a word witch. They have created the ‘Sælvatici Mythos’ [Robin Hood myths in a folk-horror/ dark Pagan style] and the ‘Less than Human’ [an examination of society through the medium of genetically-based shape shifters] worlds.
+
+ They are the Creative Director of Tenebrous Texts and are also a storyteller, a performance poet, a publisher, a playwright, a presenter, an artist, a master of ceremonies, and are occasionally considered driven.
+
+ They are near-infinitely patient, ace, darkly-inclined and feel malevolent joy frequently. For ‘Piper Finchling’ it was a delight to write something in an entirely different style."
+
+
+This is all my own work and I hold all rights.
+
+See you Friday - really looking forwards to a weekend away!
+
+Steven C. Davis
+
+Creative Director, Tenebrous Texts
+
+\section*{Dana Archer}
+
+NAME: Dana Archer
+
+\texttt{dana_archer@outlook.com}
+
+Phone number (WhatsApp) : 07961750318
+
+ADJECTIVES Disassociation, confusion, tense, illusory, fractured
+
+OTHER
+
+Hi Sadie
+
+Please find attached my piece for the upcoming Anthology, please do let me know of any thoughts and feedback you may have.
+
+At the start of the document is the biography, name and acknowledgement (as required from the prompt)
+
+Thank you 
+
+Dana
+
+
+Biography
+Dana is a fiction writer and film critic who is currently seeking to publish her debut novel. She is an avid reader and has written for many years in a number of formats from fan-fiction to short stories. 
+
+
+This is all my own work and I hold all rights to it. It is written from experience and is not slanderous or misleading.
+ 
+
+
+\section*{Viktor Rowlands}
+
+Hello Sadie,
+
+I have the edited short story attached here. I have included a short introduction at the front. 
+
+content warning for transphobia and christian fundamentalism from antagonistic characters. I think it has a happy ending though.
+
+My words are different , and the subject has changed to the otherworld. I’ve also forgotten which chord I picked, I think it was either D minor or D sharp minor. 
+
+\section*{Lee Barklam}
+
+NAME, \texttt{mbarklam@hotmail.co.uk}
+
+reflection, nostalgia, and perseverance (with a soupcon of whimsicality and ebullience)
+
+
+Hi Sadie,
+
+I've been catching up on messages in the LGBT Birmingham Writers' Group Discord and would really like to be considered for your project.  I enjoyed contributing to Roo's Arcana anthology and would welcome an opportunity to contribute to another.
+
+I have a basic idea for a submission that will probably centre around reflection, nostalgia, and perseverance (with a soupcon of whimsicality and ebullience).  The location is a bridge that spans a small stream somewhere in a countryside town.  The idea for the fugue will focus on a conversation between two people who meet on the bridge in contemporary times, but the prelude is set 1000 years prior.  It's not musical, per se, but I know you said that the plot does not need to involve direct musical themes or references, so I hope that's OK.
+
+It's possible the manifestation of this idea into a story might take it in a slightly different direction to that which I'm imagining now (isn't that always the case with writing projects?), but if it's an idea you think could fit within your project, let me know and I'll get to work on it.
+
+Cheers,
+Lee
+
+
+\section*{Irena Peterson Pavliuk}
+
+Irena Peterson Pavliuk, \texttt{irynkavin@gmail.com}
+
+
+Confinement — Restlessness — Absorption — Irreconcilability — Legacy —
+Metamorphosis
+
+\paragraph{TITLE:} The Room (in D minor)
+
+\section*{Irena Peterson Pavliuk}
+
+Irena Peterson Pavliuk, \texttt{irynkavin@gmail.com}
+
+\paragraph{TITLE:} (No) Lingua Franca
+
+\section*{Andrew Cheffings}
+
+Andrew Cheffings, \texttt{archeffings@gmail.com}
+
+Here are my mood words: heavy, wet, warm
+
+\section*{Viktor Rowlands}
+
+A.T.~Rowlands, \texttt{neuromancertv@gmail.com}
+
+My words are grief, loneliness, and bittersweet.
+
+My subject is a ghost.
+
+I would like my name to appear as Viktor. A. T. Rowlands.
+
+% \section*{legal name}
+% 
+% NAME, \texttt{EMAIL}
+% ADJECTIVES
+% 
+% OTHER
+%
+
+\section*{Brendan Hawthorne}
+
+Hiya,
+Just seen your call out for your anthology. So sorry I missed it. Not been too well recently but on the mend.
+I tried to email via your website and it wouldn’t allow me to fill out the enquiry section.
+Would this poem be acceptable for your publication.
+No worries if not.
+Just changed a word from last version.
+Here is the new version!
+Just let me know,
+Here goes
+
+brendanhawthornepoet61@gmail.com
+
+\section*{Sam Sutton}
+
+email: sam.sutton@gmail.com
+
+Dear Sadie,
+
+I would love to take part in your Preludes and Fugues project, if that is possible. I am working on a piece inspired by the key of C\sh\ minor and the three words I have chosen are: 
+
+Poignant, Brooding, Fragile
+
+You can contact me on this email address and I would want my work to appear under the name Sam Sutton.
+
+All the best,
+Sam
+
+-- 
+Sam Sutton
+Director
+Fantasia Music School
+www.fantasiamusicschool.co.uk
+
+biog
+
+Sam Sutton is a classically trained musician, composer and writer. She especially enjoys working on multimedia 
+ projects\=writing music for adult animation and experimental film and more recently
+writing fiction. She has written a novel which takes its structure from Bach’s Unaccompanied
+Suite for Cello in C minor. I am drawn to explore the interplay of the languages of music and
+words and the relationship between music, image and words through film, fiction and
+composition.
+
+I declare that the following work, Unrequited, is all my own work and I hold all rights to it.
+
+\section*{Lucia Sellars}
+
+
+Bio: Lucia Sellars is an environmental scientist and quiet observer. She plays with text, she paints and makes video poetry, and mini-docs. You can see more of her work at www.luciasellars.org, and @luciasellars1 on Instagram.
+
+Hi Sadie, :)
+
+I hope you are well.
+
+I have chosen Morning Mood by Grieg, and I chose six words as per the Key E major:
+
+E major: 4 sharps, fresh, brash, new happy, joy, pleasure
+
+
+I'm writing a short poem for the prelude and a sestina poem for the fugue using the above six words.
+
+
+I wanted to ask, if I could also send another text? I haven't written it yet but it would be a prose text. Perhaps you have received many entries already, so hence me asking to see if it's ok to submit two pieces?
+
+
+Would be lovely to meet you, I live in Evesham, Worcestershire, but I could go to Brum for the day for a coffee, or an event if you are going to one?
+
+
+I really enjoyed the prompt, i have learned from it, thank you
+
+
+Oki, have a nice day, 
+
+Lucia
+
+\clearpage
+
+
+\end{document}
+
