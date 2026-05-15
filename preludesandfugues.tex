@@ -41,7 +41,8 @@ inner=1.6cm,outer=2.203cm,top=2.2025cm,bottom=2.2025cm%,heightrounded,showframe
   \clearpage%\[***\]
   %\pagebreak[1]
   \section*{Fugue.}}
-\newcommand\introduction{\chapter*{Introduction}\addcontentsline{toc}{chapter}{Introduction}}
+\newcommand\introduction{\chapter*{Introduction}\addcontentsline{toc}{chapter}{\rm Introduction}}
+\renewcommand\appendix[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{\rm Appendix: #1}}
 
 %\usepackage{tocloft}
 %\usepackage{titlesec,titletoc}
@@ -286,6 +287,10 @@ poetry, and mini-docs. You can see more of her work at
 % Oki, have a nice day, 
 % 
 % Lucia
+
+\cleardoublepage
+
+\input{appendix.tex}
 
 \end{document}
 
