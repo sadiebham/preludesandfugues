@@ -1,0 +1,78 @@
+Preludes and Fugues
+
+Thank you for your contribution!
+
+Some editorial notes
+
+Minor changes
+
+I may have made some changes to your text.  In most cases
+these are minor modifications aiming to
+1. bring your text closer to a house style like the others
+2. fix grammatical or other minor errors
+3. assist the reader where text may be ambiguous
+
+This is not meant to change your work in any significant way.
+Where I have made a minor change like this you will see
+a comment such as
+
+50c50
+< pace West bound. Signs for Monmouth and the services zipped by their
+---
+> pace west-bound. Signs for Monmouth and the services zipped by their
+
+This means: on line 50 I have changed the line marked with <
+to the line marked with >.  In this case I have changed "West bound"
+to "west-bound".  Please check all such changes and if your don't like
+what I have done, please say so.  These changes are mostly negotiable.
+(Some, such as incorrect use of apostrophe in its or it's are not
+negotiable.)
+
+In the text you see, you may find some unusal characters.  These
+are
+  ` a open quote sign
+  `` open double quote
+  ' close quote
+  '' or " close double quote
+  \= m-dash
+  % ignore to end  of line (and don't break a word here)
+They all print correctly - see the PDF
+
+Other changes
+
+I will discuss any more substatial suggestions with you directly
+
+Final layout
+
+I'll give you an idea of the final layout in PDF form. Please note,
+
+* The order of inclusion in the volume is not yet decided.*
+
+I am thinking that mostly I will be trying to alternate prose and
+poetry.  If you have comments, wishes or requests please let me know
+them.
+
+Please note that in some cases, I still need a short biog, including
+contact email/web address etc if you want that included, and including
+your preferred pronouns.
+
+I have printed these pieces with the headings `Prelude.' and `Fugue.'
+These headings *could* be omitted but I think they help.  Comments?
+
+Everyone has been asked to provide adjectives or some description of
+their `mood' or `key'.  Not everyone has done so.  (If you sent more
+than one piece this is needed for each piece.)  Once this is done
+we (as a group have to decide what to do with this.  The suggestions are
+
+1. have this printed at the top of the piece after the title and your name
+and before "Prelude."
+
+2. have these listed at the back as an appendix.
+
+3. don't print these at all.
+
+Please let me have your thoughts!
+
+Thank you once again!
+
+Sadie x
