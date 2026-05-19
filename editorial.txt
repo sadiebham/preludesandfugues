@@ -35,12 +35,16 @@ are
   ' close quote
   '' or " close double quote
   \= m-dash
+  -- n-dash
+  ~ ordinary (non-breaking) space (inter-sentence spaces are larger)
   % ignore to end  of line (and don't break a word here)
+  % is sometimes used to add a comment to you explaining what I have done
 They all print correctly - see the PDF
 
 Other changes
 
-I will discuss any more substatial suggestions with you directly
+I happy to discuss any of this and any more substatial suggestions with
+you directly.  These are only my suggestions.
 
 Final layout
 
@@ -53,7 +57,7 @@ poetry.  If you have comments, wishes or requests please let me know
 them.
 
 Please note that in some cases, I still need a short biog, including
-contact email/web address etc if you want that included, and including
+contact email/web address etc if you want that included and including
 your preferred pronouns.
 
 I have printed these pieces with the headings `Prelude.' and `Fugue.'
