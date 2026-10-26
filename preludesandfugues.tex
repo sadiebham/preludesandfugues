@@ -18,7 +18,7 @@ inner=1.6cm,outer=2.203cm,top=2.2025cm,bottom=2.2025cm%,heightrounded,showframe
 \renewcommand\title[1]{\gdef\thetitle{#1}}
 \newcommand\subtitle[1]{\gdef\thesubtitle{#1}}
 
-\title{Preludes and Fugues}
+\title{24~Preludes and Fugues}
 \subtitle{An anthology}
 \author{Sadie Philippa Kaye (ed)}
 \date{November 2026}
@@ -76,16 +76,9 @@ inner=1.6cm,outer=2.203cm,top=2.2025cm,bottom=2.2025cm%,heightrounded,showframe
 
 \vspace*{5cm}
 
-\begin{quote}
-Blurb here.
-\end{quote}
-
-\begin{quote}
-More blurb.
-\end{quote}
-\begin{flushright}
-  Author of blurb
-\end{flushright}
+\begin{center}
+\input{blurb}
+\end{center}
 
 \clearpage
 
@@ -94,7 +87,7 @@ More blurb.
   \huge{\bf \thetitle}\\[3mm]
   \Large{\it \thesubtitle}\\[1cm]
   \large{
-    by\\[6pt]{\bf Sadie Philippa Kaye}
+    edited by\\[6pt]{\bf Sadie Philippa Kaye}
   }
   
 \end{center}
@@ -107,7 +100,7 @@ More blurb.
   
   First published in Great Britain in 2026 by Tenebrous Texts\\
 
-  This selection \copyright\ Sadie Philippa Kaye 2026\\
+  This selection is \copyright\ by Sadie Philippa Kaye 2026\\
   
   Each item is \copyright\ by its author 2026
 
@@ -117,9 +110,9 @@ stored in a retrieval system or transmitted, in any form or by any
 means, without the prior permission of both the copyright holder and
 the publisher in writing.
 
-The right of of the authors included here to be identified as the
-joint authors of this work\\ has been asserted in accordance with
-the\\ Copyright, Designs and Patents Act 1988.
+The right of of the authors included here to be identified as\\
+the joint authors of this work has been asserted in accordance\\
+with the Copyright, Designs and Patents Act 1988.
 
 This is a work of fiction.
 The names, characters and incidents
@@ -140,6 +133,12 @@ ISBN xxx-x-xxxxxx-xx-x
 
 \clearpage
 
+\includegraphics[height=\textheight]{Bach-wtc1-prelude1-ms.jpeg}
+
+\clearpage
+
+\pagestyle{plain}
+
 \tableofcontents
 
 % asabove.tex WITHDRAWN
@@ -147,9 +146,9 @@ ISBN xxx-x-xxxxxx-xx-x
 % theprompt.tex
 
 \mainmatter
-\pagestyle{plain}
 
 \addtocontents{toc}{\vspace{2ex}}
+
 \input{introduction}
 \input{piano}% prose
 \input{linguafranca}% poetry
@@ -179,6 +178,8 @@ ISBN xxx-x-xxxxxx-xx-x
 \input{lasthouse}% prose
 
 \cleardoublepage
+
+\addtocontents{toc}{\vspace*{2.5ex}}
 
 \input{appendix.tex}
 
